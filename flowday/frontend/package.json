@@ -1,0 +1,36 @@
+{
+  "name": "flowday-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.7.1",
+    "@tanstack/react-query": "^5.101.4",
+    "date-fns": "^4.4.0",
+    "framer-motion": "^13.0.0",
+    "lucide-react": "^1.30.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-hook-form": "^7.84.0",
+    "react-router-dom": "^7.18.2",
+    "zod": "^4.4.3",
+    "zustand": "^5.0.14"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^4.5.0",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5"
+  }
+}

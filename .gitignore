@@ -1,63 +1,32 @@
 ```
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Virtual Environment
-venv/
-ENV/
-env/
-.venv/
-env.bak/
-ENV.bak/
-
 # Dependencies
 node_modules/
 
-# FastAPI/Backend specific
-*.db
-*.db-journal
+# Build artifacts
+dist/
+build/
+target/
 
-# Logs
+# Logs and temp files
 *.log
-
-# Environment variables
-.env
-.env.local
-.env.*
-!.env.example
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
 *.tmp
 
-# OS
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+*.env.*
 
-# Coverage
-.coverage
-coverage/
-htmlcov/
+# Editors
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+.env
 ```
